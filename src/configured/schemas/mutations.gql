@@ -1,0 +1,4 @@
+type Mutation {
+    user_new(user: CUser!): User!
+    user_delete(id: ID!): Boolean!
+}

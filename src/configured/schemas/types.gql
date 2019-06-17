@@ -1,0 +1,17 @@
+scalar Object
+
+type User {
+  id: ID!
+  firstname: String
+  lastname: String
+  email: String
+  password: String
+}
+
+input CUser {
+  email: String!
+  password: String
+  
+  firstname: String
+  lastname: String
+}
